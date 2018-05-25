@@ -175,7 +175,7 @@ export async function createLocalTracks(audio = true, videoWidth = 640) {
   }
 }
 
-export default {
+export const TwilioVideo = {
   startWebRTC() {
     return new Promise((resolve, rejected) => {
       axios.get('https://voipapi.ooca.co/token')

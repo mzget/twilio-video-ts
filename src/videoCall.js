@@ -204,7 +204,7 @@ function createLocalTracks(audio, videoWidth) {
     });
 }
 exports.createLocalTracks = createLocalTracks;
-exports.default = {
+exports.TwilioVideo = {
     startWebRTC: function () {
         return new Promise(function (resolve, rejected) {
             axios_1.default.get('https://voipapi.ooca.co/token')
