@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "@types/node": "^10.1.2",
-    "twilio-video-ts": "^0.0.1"
+    "twilio-video-ts": "^0.0.2"
   }
 }
