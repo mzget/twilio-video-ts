@@ -11,10 +11,10 @@
   "dependencies": {
     "axios": "^0.18.0",
     "events": "^2.0.0",
-    "ooca-twilio-video": "https://github.com/mzget/ooca-twilio-video#develop",
     "twilio-video": "^1.9.0"
   },
   "devDependencies": {
-    "@types/node": "^10.1.2"
+    "@types/node": "^10.1.2",
+    "twilio-video-ts": "^0.0.1"
   }
 }
