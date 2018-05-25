@@ -1,4 +1,4 @@
-import * as Video from "ooca-twilio-video";
+import * as Video from "twilio-video-ts";
 
 Video.TwilioVideo.startWebRTC().then(() => {
     Video.TwilioVideo.connect("", undefined)
