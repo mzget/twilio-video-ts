@@ -1,0 +1,19 @@
+{
+  "name": "ooca-twilio-video",
+  "version": "0.0.1",
+  "description": "twilio-video typescript utilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "events": "^2.0.0",
+    "twilio-video": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.1.2"
+  }
+}
