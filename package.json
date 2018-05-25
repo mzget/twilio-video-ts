@@ -1,5 +1,5 @@
 {
-  "name": "ooca-twilio-video",
+  "name": "twilio-video-ts",
   "version": "0.0.1",
   "description": "twilio-video typescript utilities.",
   "main": "index.js",
