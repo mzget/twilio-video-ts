@@ -1,3 +1,11 @@
-import * as oocavideo from "ooca-twilio-video";
+import * as Video from "ooca-twilio-video";
 
-oocavideo.
+Video.TwilioVideo.startWebRTC().then(() => {
+    Video.TwilioVideo.connect("", undefined)
+        .then(room => {
+
+        })
+        .catch(err => {
+
+        });
+}).catch(err => console.warn("No authorized token"));
